@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+# File: ex1-2.py
+# Description: Introduction
+# Python 2.7.5 (default, May 12 2013, 12:27:12) 
+#
+
 #print "Hello World!"
 #print "Hello Again"
 #print "I like typing this."
