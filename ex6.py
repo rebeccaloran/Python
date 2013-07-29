@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
-# File: ex6.py
-# Description:
+# File: ex7.py
+# Description: More Printing
+# Python 2.7.5 (default, May 12 2013, 12:27:12) 
 #
+
 # prints the string
 print "Mary had a little lamb."
 # prints the string, with 'snow' referenced by [ %s ]
