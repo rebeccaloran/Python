@@ -1,41 +1,56 @@
 # -*- coding: utf-8 -*-
 # File: ex5.py
-# Description: Strings and Text
+# Description: More Variables and Printing
+# Python 2.7.5 (default, May 12 2013, 12:27:12) 
 #
-# [ x ] and [ y ] are cryptic because the author of this tutorial wishes to express the annoyance of {magic variables}
-# Assigns the string to [ x ], with [ %d ] represented by the number  `10'
-x = "There are %d types of people." % 10
-# Assigns the string `binary' to [ binary ]
-binary = "binary"
-# assigns the string `don\'t' to [ do_not ]
-# // I escape the [ ' ] to avoid confusion, best to be consistent and just always escape escaped characters. 
-do_not = "don\'t"
-# Assigns the string to [ y ], with [ %s ] and [ %s ] being represented by [ (binary, do_not) ]
-y = "Those who know %s and those who %s" % (binary, do_not)
-# Prints [ x ]
-print x
-# Prints [ y ]
-print y
-# Prints the string, with [ %r ] represented by [ x ]
-print "I said: %r" % x
-# Prints the string, with [ %r ] represented by [ y ]
-print "I also said: '%s'." % y
-
-# Assigns [ hillarious ] the boolean value of `False'
-hillarious = False
-# Assigns [ joke_evaluation ] the string, initiating [ %r ]
-joke_evaluation = "Isn't that joke so funny?! %r"
-# Finalizes [ %r ] with [ hillarious ] concatenated after [ joke_evaluation ] 
-print joke_evaluation % hillarious 
-
-# Assigns the string to [ w ]
-w = "This is the left side of..."
-# Assigns the string to [ e ]
-e = "a string with a right side."
-
-# Prints [ e ] concantenated after [ w ]
-print w + e
 
 
 
 
+
+name = 'Zed A. Shaw'
+age = 35 # not a lie
+height = 74 # inches
+weight = 180 # lbs
+eyes = 'Blue'
+teeth = 'White'
+hair = 'Brown'
+
+print "Let's talk about %s." % name
+print "He's %.0f centimeters tall." % (height * 2.54)
+print "He's %.0f kilograms heavy." % (weight * 0.5)
+print "Actually that's not too heavy."
+print "He's got %s eyes and %s hair." % (eyes, hair)
+print "His teeth are usually %s depending on the coffee." % teeth
+
+# this line is tricky, try to get it _exactly_ right
+print "If I add %d, %.0fcm, and %.0fkg I get %.0f." % (
+    age, (height * 2.54), (weight * 0.5) , age + (height * 2.54)  + (weight * 0.5)
+    )
+
+
+
+###########################################################
+#Distance
+# 1 inch   =	 2.54 cm
+# 1 foot	 =	 0.3 meters
+# 1 yard	 =	 0.9 meters
+# 1 mile	 =	 1.6 kilometers
+# Weight
+# 1 ounce	 =	 28.4 grams
+# 1 pound	 =	 0.5 kilograms
+# Volume
+# 1 teaspoon	 =	 4.9 milliliters
+# 1 cup	  	 =	 237 milliliters
+# 1 pint	 =	 473 milliliters
+# 1 quart	 =	 0.9 liters
+# 1 gallon	 =	 3.79 liters
+# Temperature
+#
+# To convert from degrees C to degrees F
+#
+# (deg C x 9/5) + 32
+#
+# To convert from degrees F to degrees C
+#
+# (deg F – 32) x 5/9
