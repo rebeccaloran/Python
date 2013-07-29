@@ -1,8 +1,13 @@
 # -*- coding: utf-8 -*-
-
-# File: variables.py
-# Set various variables and print them to stdout
+# File: ex4.py
+# Description: Variables and Names
+# Python 2.7.5 (default, May 12 2013, 12:27:12) 
 #
+
+
+
+
+
 
 # sets `cars' variable to 100
 cars = 100
