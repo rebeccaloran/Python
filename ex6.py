@@ -18,7 +18,7 @@ print x
 print y
 # Prints the string, with [ %r ] represented by [ x ]
 print "I said: %r" % x
-# Prints the string, with [ %r ] represented by [ y ]
+# Prints the string, with [ %s ] represented by [ y ]
 print "I also said: '%s'." % y
 
 # Assigns [ hillarious ] the boolean value of `False'
